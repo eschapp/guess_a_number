@@ -58,8 +58,7 @@ var guessANumber = function(){
       player = "Mystery Player";
     }
     var hintStatus =  document.querySelector('game');
-  // $.create(output);
-  // gameStatus = $.createText(gameStatus);
+
     if (numAttempts < maxAttempts && guessNumber){
       numAttempts++;
       if (guessNumber < computerGuess) {
