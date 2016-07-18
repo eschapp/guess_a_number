@@ -1,0 +1,29 @@
+body {
+  background-color: orange;
+  text-align: center;
+}
+
+terminal {
+  display: block;
+  background-color: #050005;
+}
+output {
+  display: inline-block;
+  font-family: monospace;
+  color: #00e335;
+/*  border-style: outset;
+  border-color: #bdbdbd;
+  border-width: 10px;*/
+  width: 60%;
+  height: 20px;
+  margin 0 auto;
+}
+
+#button {
+  display: block;
+}
+
+#Status {
+  display: block;
+  padding-top: 20px;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Guess a Number</title>
+    <link rel="stylesheet" type="text/css" href="./guess_a_number.css">
+  </head>
+
+  <body>
+    <h1>Please Guess an Integer from 1 to 100!</h1>
+    <h2>We'll See if you can come up with what the computer guessed! </br> But you'll only have 10 chances!</h2>
+
+      <input type="text" id="player_name" placeholder="Who is playing?">
+<!--       <button id="start" onclick="gameBegin('game');">Start your Game!</button>  -->
+      <game>
+        <input type="text" id="player_guess" placeholder="Good Luck!">
+        <button onclick="guessANumber();">Submit your Guess</button>
+        <button onclick="newGame();">Start a new Game!</button>
+        <button onclick="changePlayer();">Change Players!</button>
+      </game>
+
+    <script src="./guess_a_number.js" type="text/javascript"></script>
+  </body>
+
+</html>
